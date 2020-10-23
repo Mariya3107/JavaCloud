@@ -8,6 +8,7 @@
     <artifactId>cloud-netty</artifactId>
     <version>1.0.1</version>
 
+
     <dependencies>
         <dependency>
             <groupId>io.netty</groupId>
@@ -27,5 +28,6 @@
         <maven.compiler.source>14</maven.compiler.source>
         <maven.compiler.target>14</maven.compiler.target>
     </properties>
+
 
 </project>

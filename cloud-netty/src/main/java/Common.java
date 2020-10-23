@@ -26,7 +26,6 @@ public class Common {
         return currentChannel;
     }
 
-
     public void start(CountDownLatch countDownLatch) {
         EventLoopGroup group = new NioEventLoopGroup();
         try {
