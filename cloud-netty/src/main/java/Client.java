@@ -18,7 +18,5 @@ public class Client {
            Common.getInstance().stop();
             }
         });
-
-
     }
 }

@@ -18,7 +18,6 @@ public class Handler extends ChannelInboundHandlerAdapter {
     private long gettedFileLength;
     private BufferedOutputStream outputStream;
 
-
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         ByteBuf buf = ((ByteBuf) msg);  //получает ByteBuffer

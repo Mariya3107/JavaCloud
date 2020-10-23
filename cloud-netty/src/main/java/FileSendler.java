@@ -29,7 +29,6 @@ public class FileSendler {
         buf.writeLong(Files.size(path));
         channel.writeAndFlush(buf);
 
-
         ChannelFuture operationFuture = channel.writeAndFlush(region);
         if (finishListener != null) {
             operationFuture.addListener(finishListener);
